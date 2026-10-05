@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useMemo } from 'react';
-import rawDataset from '@/data/dealership_data.json';
+import rawDataset from '@/Data/dealership_data.json';
 import { DealershipData, Lead } from '@/lib/types';
 import { calculateMetrics, getStalledLeads, getFunnelData } from '@/lib/analytics';
 import ActionCenter from '@/components/ActionCenter';
